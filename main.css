@@ -1,0 +1,81 @@
+.section-content {
+ color: white;
+ 
+}
+.section-content h3{
+  font-size: 43px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.section-content h5{
+font-size: 25px;
+margin-bottom: 20px;
+}
+
+/* nav bar */
+.navbar {
+  background: linear-gradient(to right, #ff8a00, #e52e71);
+}
+/* about */
+.section h3 {
+  font-size: 40px;
+ text-align: center;
+padding-bottom: 20px;
+color: blue;
+margin-top: 30px;
+
+}
+.section h6{
+  font-size: 26px;
+  padding-left: 30px;
+}
+
+/* services */
+.card {
+  position: relative;
+  overflow: hidden;
+  border-top: 8px solid red;
+  border-radius: 8px;
+  /* animation: flyin 0.5s; */
+  transition: transform 0.3s ease-in-out;
+  height: 32rem;
+}
+
+.card:hover{
+  transform: translateX(10px) translateY(-10px);
+}
+.service{
+  text-align: center;
+  color: blue;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* chart */
+.contact-icons {
+  font-size: 24px;
+  margin-right: 10px;
+}
+.contact-section {
+  background-image: url('./img/IMAGTO.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  color: #fff;
+  text-align: center;
+  height: 730px;
+}
+/* carousel */
+   
+    .carousel-item img {
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+    }
+    /* @media screen and(min-width:800px) {
+      .carousel-inner img{
+        height: 30px;
+        width: 100%;
+        object-fit: cover;
+      }
+    } */
